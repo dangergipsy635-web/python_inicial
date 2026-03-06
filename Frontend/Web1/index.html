@@ -1,0 +1,23 @@
+<!DOCTYPE html> <!-- version 5 -->
+<html>
+    <head>
+        <title>SNPP Login</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style.css"/>    
+    </head>
+    <body>
+        <div class="container">
+            <img src="images/logo.svg" class="img-logo"/>
+            <h1>PERSONAS</h1>
+            <form method="get" action="credenciales" onsubmit="return validar()">
+                <input onmouseleave="validar2()" id="ci" type="text" required autofocus placeholder="Numero de Documento" class="form-control"><br/>
+                <input type="email" required placeholder="Correo electrónico" class="form-control"><br/>
+                <input type="password" required placeholder="Clave de acceso" class="form-control"><br/>
+                <button type="submit" class="form-button"> Ingresar</button>
+            </form>
+            <a href="#"> ¿Olvidó su clave?</a><br/>
+            <a href="#"> ¿Tiene código de invitación?</a>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
