@@ -1,0 +1,53 @@
+/*estilos para login*/
+body{
+    background-color: rgb(106, 111, 111);
+    background-image: url('comida.jpg');
+    background-size: 50%;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 600px;
+    height: max-content;
+    background-color: rgba(223, 202, 199, 0.5);
+    margin:auto;
+    margin-top:50px;
+}
+
+.imagen-logo{
+    margin-left: 200px;
+    margin-top:50px;
+    border-radius:20px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48pt;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.formulario{
+    text-align: center;
+}
+
+.formulario input{
+    width: 50%;
+    height: 50px;
+    font-size: 14pt;
+}
+
+.formulario button{
+    background-color: black;
+    color: white;
+    width: 40%;
+    height: 80px;
+    font-size: 14pt;
+    transition: 300ms;
+}
+
+.formulario button:hover{
+    background-color: rgb(225, 224, 224);
+    color: rgb(30, 30, 30);
+}
