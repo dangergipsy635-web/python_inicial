@@ -1,0 +1,6 @@
+class Calculadora:
+    """Calculadora simple para sumar dos numeros"""
+    numero1 = None
+    numero2 = None
+    resultado = None
+    historia = []
